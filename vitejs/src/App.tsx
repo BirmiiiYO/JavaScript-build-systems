@@ -1,16 +1,14 @@
 import React from 'react'
-import { useAppDispatch } from './hooks/Redux'
+import { StarWar } from 'components/Starwar'
+import { Header } from 'components/Header'
 
 
 const App = () => {
-  const dispatch = useAppDispatch()
-
 
   return (
     <>
-<h1>
-    zxc
-</h1>
+    <Header/>
+    <StarWar/>
     </>
   )
 }
