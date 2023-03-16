@@ -12,7 +12,6 @@ export const StarWar = () => {
 
   return (
     <div>
-      <Title>Hello, World!</Title>
       <UserList>
         {data.allFilms.films.map(({title, releaseDate }) => (
           <UserListItem key={title+releaseDate}>
@@ -21,6 +20,7 @@ export const StarWar = () => {
           </UserListItem>
         ))}
       </UserList>
+      
     </div>
   );
 };

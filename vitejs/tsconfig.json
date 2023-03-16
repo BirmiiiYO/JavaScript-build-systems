@@ -22,7 +22,10 @@
       "components/*": ["components/*"],
       "graphqlDir/*": ["graphql/*"],
       "interfaces/*": ["interfaces/*"],
-      "styles/*": ["styles/*"]
+      "styles/*": ["styles/*"],
+      "constants/*": ["constants/*"],
+      "assets/*": ["assets/*"],
+      "pages/*": ["pages/*"]
     }
   },
   "include": ["src"]

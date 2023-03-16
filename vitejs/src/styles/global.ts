@@ -10,5 +10,6 @@ export default createGlobalStyle`
     box-sizing: border-box;
     text-decoration: none;
     letter-spacing: -0.015em;
+    font-family: 'Montserrat', sans-serif;
   }
 `
