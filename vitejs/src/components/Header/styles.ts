@@ -8,7 +8,7 @@ margin:10px 20px;
 svg {
     width:50px;
     height: 50px;
-    stroke:green;
+    stroke:white;
 }
 `
 
